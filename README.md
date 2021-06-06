@@ -68,9 +68,10 @@ This libraries collects all my work which were a variety of short-term projects 
 </div><!-- end of wrap -->
 
 <footer>
-  <p class="p">Demo by George Martsoukos.</p>
+  <p class="p">By Michellehlcn.</p>
 </footer>
 
+<style>
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
 
 body {
@@ -191,8 +192,7 @@ img {
 }
 
 
-/* MEDIA QUERIES STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 @media only screen and (min-width: 750px) {
 
@@ -235,6 +235,8 @@ img {
 	}
 
 }
+</style>
+<script>
 $('#mix-wrapper').mixItUp({
   load: {
   	sort: 'order:asc'
@@ -254,3 +256,4 @@ $('#mix-wrapper').mixItUp({
     }
   }
 });
+</script>
