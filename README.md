@@ -37,7 +37,7 @@ This libraries collects all my work which were a variety of short-term projects 
           </div>
             <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
-               <img src="{{ .Site.BaseURL }}/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt=""></div> 
+               <p><img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt=""/></p></div> 
            
             <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
@@ -70,7 +70,7 @@ This libraries collects all my work which were a variety of short-term projects 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"></script>
    
-     <script> baseURL = https://i.ibb.co/
+     <script> 
         	 var containerA1 = document.querySelector('.container');
            
            var mixer=mixitup(containerA1);
