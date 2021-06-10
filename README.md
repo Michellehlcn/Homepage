@@ -37,25 +37,25 @@ This libraries collects all my work which were a variety of short-term projects 
           </div>
             <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.png" border="0"class=" img-fluid" alt="" ></div> 
+                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div> 
            
             <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.png" border="0"class=" img-fluid" alt="" ></div>
+                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix datastudio">
-                <img src="https://i.ibb.co/6YW8xKz/Screen-Shot-2021-06-09-at-11-01-36-pm.png" border="0"class=" img-fluid" alt="" ></div>
+                <img src="https://i.ibb.co/6YW8xKz/Screen-Shot-2021-06-09-at-11-01-36-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix mapbox">
-            	<img src="https://i.ibb.co/bBtxN7r/Screen-Shot-2021-06-10-at-4-11-27-pm.png" border="0"class=" img-fluid" alt="" ></div>
+            	<img src="https://i.ibb.co/bBtxN7r/Screen-Shot-2021-06-10-at-4-11-27-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.png" border="0"class=" img-fluid" alt="" ></div>
+                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.png" border="0"class=" img-fluid" alt="" ></div>
+                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.png" border="0"class=" img-fluid" alt="" ></div>   
+                <img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>   
           </div>
         </div>
       
