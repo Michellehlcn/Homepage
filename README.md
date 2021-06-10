@@ -42,7 +42,7 @@ This libraries collects all my work which were a variety of short-term projects 
           
 
             <div class="col-lg-3 pb-2 mix tableau">
-<img src="https://github.com/Michellehlcn/<Homepage>/blob/master/<Screen Shot 2021-06-09 at 11 01 43 pm>" border="0"class=" img-fluid" alt=""></div>
+<img src="https://github.com/Michellehlcn/Homepage/blob/master/Screen-Shot-2021-06-09-at-11-01-43-pm>" border="0"class=" img-fluid" alt=""></div>
             
             <div class="col-lg-3 pb-2 mix datastudio">
                 <img src="https://i.ibb.co/6YW8xKz/Screen-Shot-2021-06-09-at-11-01-36-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
