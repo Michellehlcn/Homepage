@@ -1,3 +1,4 @@
+![Screen Shot 2021-06-09 at 11 01 43 pm](https://user-images.githubusercontent.com/83108919/121535073-278c6a80-ca45-11eb-8d13-97da4151e27e.png)
 
 This libraries collects all my work which were a variety of short-term projects for my clients and my personal research.
 
@@ -38,7 +39,8 @@ This libraries collects all my work which were a variety of short-term projects 
             <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
                !<p><img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt=""/></p></div> 
-           
+           ![Screen Shot 2021-06-09 at 11 01 43 pm](https://user-images.githubusercontent.com/83108919/121535112-31ae6900-ca45-11eb-8418-c706b1a4cb71.png)
+
             <div class="col-lg-3 pb-2 mix tableau">
 <p><img src="https://user-images.githubusercontent.com/83108919/121534298-7259b280-ca44-11eb-8354-a247bf3961c9.PNG" border="0"class=" img-fluid" alt="" /></p></div>
             
