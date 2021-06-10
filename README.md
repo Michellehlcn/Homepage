@@ -1,4 +1,4 @@
-![Screen Shot 2021-06-09 at 11 01 43 pm](https://user-images.githubusercontent.com/83108919/121535073-278c6a80-ca45-11eb-8d13-97da4151e27e.png)
+
 
 This libraries collects all my work which were a variety of short-term projects for my clients and my personal research.
 
