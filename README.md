@@ -40,7 +40,8 @@ This libraries collects all my work which were a variety of short-term projects 
                !<p><img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt=""/></p></div> 
            
             <div class="col-lg-3 pb-2 mix tableau">
-                !<img src="https://i.ibb.co/bJVnhb0/Screen-Shot-2021-06-10-at-3-46-26-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
+                
+<img src="https://user-images.githubusercontent.com/83108919/121534298-7259b280-ca44-11eb-8354-a247bf3961c9.png" border="0"class=" img-fluid" alt="" ></div>
             
             <div class="col-lg-3 pb-2 mix datastudio">
                 <img src="https://i.ibb.co/6YW8xKz/Screen-Shot-2021-06-09-at-11-01-36-pm.PNG" border="0"class=" img-fluid" alt="" ></div>
