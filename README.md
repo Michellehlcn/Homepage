@@ -64,7 +64,7 @@ This libraries collects all my work which were a variety of short-term projects 
    
    
    <footer>
-  <p class="p text-center font-family="Alegreya Sans SC", sans-serif;">Made by Michellehlcn: Bootstraps, Mixitup </p>
+  <p class="p text-center font-family="Alegreya Sans SC", sans-serif;">Made by Michellehlcn: Bootstraps, Mixitup/> </p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
