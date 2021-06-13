@@ -14,8 +14,6 @@
 
 </head>
 <body>
-
-
     <section class="filter py-5">
       <div class="container py-5">
         <div class="row">
@@ -32,11 +30,7 @@
       <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-             <div class="overlay">
-               <div class="text">Project</div>
-	      
-	      
-	      
+          
             <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
             
@@ -82,10 +76,10 @@
   <style>
   
 *{
-	
+	padding:0; 
     box-sizing: border-box;
     
-margin:0; padding:0; 
+margin:0; 
   }
   
 .btn1{
