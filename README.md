@@ -1,6 +1,4 @@
-
-
-This libraries collects all my work which were a variety of short-term projects for my clients and my personal research.
+This library introdues all short-term mini-scale projects for my clients and from my personal researches.
 
 <html lang="en">
 
