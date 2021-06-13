@@ -104,10 +104,11 @@ margin:0; padding:0;
   background: #FFFFFF;
   border: 2px solid #000000;
   transition: 0.5s;
-  
-}
+}  
+.row py-5 {
+	  position: relative;}
+	  
  .overlay {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -119,7 +120,7 @@ margin:0; padding:0;
   background-color: #008CBA;
 }
 
-.row:hover .overlay {
+.row py-5:hover .overlay {
   opacity: 1;
 }
 
