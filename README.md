@@ -63,12 +63,10 @@
       
      </section>
 
-   
-  
-
-	
+ 
   <footer>
-  <p><center>Made by <a href="http://michellehlcn.wordpress.com">Michellehlcn</a>, Bootstraps, Mixitup.</center></p>
+  <p><center>Made by <a href="http://michellehlcn.wordpress.com">@Michellehlcn</a>
+	  <br>Built with Bootstraps and Mixitup.</br></center></p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
@@ -105,36 +103,6 @@ margin:0; padding:0;
   border: 2px solid #000000;
   transition: 0.5s;
 }  
-.row py-5 {
-	  position: relative;}
-	  
- .overlay {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
 
-.row py-5:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} 
-  
   </style>
 </html>
