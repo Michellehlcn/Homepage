@@ -1,4 +1,3 @@
-This library introdues all short-term mini-scale projects for my clients and from my personal researches.
 
 <html lang="en">
 
