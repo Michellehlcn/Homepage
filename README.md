@@ -61,9 +61,11 @@ This library introdues all short-term mini-scale projects for my clients and fro
      </section>
 
    
-   
-   <footer>
-  <p class="p text-center font-family="Alegreya Sans SC", sans-serif;">Made by Michellehlcn: Bootstraps, Mixitup> </p>
+  
+
+	
+  <footer>
+  <p><strong>Footer</strong>Made by Michellehlcn, Bootstraps, Mixitup. View more <a href="http://michellehlcn.wordpress.com">Wordpress Page</a></p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
