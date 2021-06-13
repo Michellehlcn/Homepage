@@ -27,14 +27,10 @@ This library introdues all short-term mini-scale projects for my clients and fro
                 <button class="btn1" data-filter=".datastudio">Data Studio</button>
                 <button class="btn1" data-filter=".mapbox">Mapbox</button>
             
-            
-            
-            
-            
             </div>
            </div>
           </div>
-            <div class="row py-5">
+      <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
              <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
           
@@ -55,13 +51,12 @@ This library introdues all short-term mini-scale projects for my clients and fro
             
             <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
-          </div>
-	      
-	       <div class="col-lg-3 pb-2 mix tableau">
+        
+	    <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
           </div>
-	    
-        </div>
+         </div>
+      
       
      </section>
 
