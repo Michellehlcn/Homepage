@@ -47,7 +47,7 @@ This libraries collects all my work which were a variety of short-term projects 
 <img src="./83108919/121613347-9a2a3400-ca9f-11eb-9463-23a704e1ac7d.png" border="0"class=" img-fluid" alt=""/></div>
             
             <div class="col-lg-3 pb-2 mix datastudio">
-                <img src="https://raw.github.com/Michellehlcn/Homepage/image0.jpeg?sanitize=true" border="0"class=" img-fluid" alt=""></div>
+                <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt=""></div>
             
 		    
 		
