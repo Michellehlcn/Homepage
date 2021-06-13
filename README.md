@@ -16,7 +16,7 @@ This library introdues all short-term mini-scale projects for my clients and fro
 </head>
 <body>
 
-</body>
+
     <section class="filter py-5">
       <div class="container py-5">
         <div class="row">
@@ -65,7 +65,7 @@ This library introdues all short-term mini-scale projects for my clients and fro
 
 	
   <footer>
-  <p><strong>Footer</strong>Made by Michellehlcn, Bootstraps, Mixitup. View more <a href="http://michellehlcn.wordpress.com">Wordpress Page</a></p>
+  <p><center>Made by Michellehlcn, Bootstraps, Mixitup. View more <a href="http://michellehlcn.wordpress.com">Wordpress Page</a></center></p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
