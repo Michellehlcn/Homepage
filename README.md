@@ -33,10 +33,12 @@
             <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
 
           <div class="col-lg-4 mix box-item datastudio">
-            <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" border="0" class="img-fluid" alt=""></div>
+            <a href="https://datastudio.google.com/u/0/reporting/d7f2c5d5-5819-4445-906f-cda8deca38c9/page/0PoLC" target="_blank">
+            <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" border="0" class="img-fluid" alt=""></a></div>
 
           <div class="col-lg-4 mix box-item mapbox">
-            <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt=""></div>
+            <a href="https://michellehlcn.github.io/thebeats/" target="_blank">
+            <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt=""></a></div>
 
           <div class="col-lg-4 mix box-item tableau">
             <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
