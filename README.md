@@ -76,14 +76,17 @@
   <style>
   
 *{
-   width: 100%;
-   height: 100%;
    padding:0; 
     box-sizing: border-box;
     
 margin:0; 
   }
-  
+  .body{
+   width: 100%;
+   height: 100%;
+	position: fixed;  
+}
+	  
 .btn1{
     height: 50px;
     width: 20%;
