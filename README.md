@@ -2,6 +2,7 @@
 <html lang="en"> 
   <head>
   <meta charset="UTF-8">
+	  title: false
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   </head>
