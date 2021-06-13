@@ -1,105 +1,109 @@
 
-<html lang="en">
+<html lang="en" <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-
-    
-    <link ref="stylesheet" href="./style.css">
-
-</head>
-<body>
-    <section class="filter py-5">
-      <div class="container py-5">
+  <body>
+    <section class="work-box">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-8 m-auto">
-            <div class="controls text-center">
-                <button class="btn1" data-filter="all">All</button>
-                <button class="btn1" data-filter=".tableau">Tableau</button>
-                <button class="btn1" data-filter=".datastudio">Data Studio</button>
-                <button class="btn1" data-filter=".mapbox">Mapbox</button>
-            
+
+          <div class="col-lg-12">
+            <div class="box-menu">
+              <ul>
+                <li class="mixitup-control-active" data-filter="*">All</li>
+                <li data-filter=".mapbox">Mapbox</li>
+                <li data-filter=".tableau">Tableau</li>
+                <li data-filter=".datastudio">Data Studio</li>
+              </ul>
             </div>
-           </div>
           </div>
-      <div class="row py-5">
-             <div class="col-lg-3 pb-2 mix tableau">
-               <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-          
-            <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-            
-            <div class="col-lg-3 pb-2 mix datastudio">
-                <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" border="0" class="img-fluid" alt=""></div>
-            
-            <div class="col-lg-3 pb-2 mix mapbox">
-            	<img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt=""></div>
-            
-            <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-            
-            <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-            
-            <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
-        
-	    <div class="col-lg-3 pb-2 mix tableau">
-                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
-          </div>
-         </div>
-      
-      
-     </section>
+        </div>
+        <div class="row box-list">
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
 
- 
-  <footer>
-  <p><center>Made by <a href="http://michellehlcn.wordpress.com">@Michellehlcn</a>
-	  <br>Built with Bootstraps and Mixitup.<br></center></p>
-</footer>
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"></script>
-   
-     <script> 
-        	 var containerA1 = document.querySelector('.container');
-           
-           var mixer=mixitup(containerA1);
-        </script>
+          <div class="col-lg-4 mix box-item datastudio">
+            <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" border="0" class="img-fluid" alt=""></div>
 
-  </body>
-  <style>
-  
-*{
-   padding:0; 
-    box-sizing: border-box;
-    
-margin:0; 
-  }
-  .body{
-   style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;  
+          <div class="col-lg-4 mix box-item mapbox">
+            <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt=""></div>
+
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+
+          <div class="col-lg-4 mix box-item tableau">
+            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+            var mixer = mixitup('.box-list');
+});
+    </script>
+
+
+
+<style>
+.box-item{
+  margin-bottom: 30px;
 }
-	  
-.btn1{
-    height: 50px;
-    width: 20%;
-    background: #000000;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-    cursor: pointer;
+img{
+  max-width: 100%;
 }
-.bnt1:hover{
-  color: #000000;
-  background: #FFFFFF;
-  border: 2px solid #000000;
-  transition: 0.5s;
-}  
-
-  </style>
+.box-item img{
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.box-menu{
+  text-align: center;
+}
+.box-menu ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.box-menu ul li{
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius:50px;
+  cursor: pointer;
+  margin-bottom: 60px;
+  margin: 34px 4px;
+  background: darkorange;
+  font-size:18px;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+}
+.box-menu ul li.mixitup-control-active{
+  background: #000;
+}
+</style>
+</body>
 </html>
