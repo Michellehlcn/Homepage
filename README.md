@@ -56,6 +56,11 @@ This library introdues all short-term mini-scale projects for my clients and fro
             <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
           </div>
+	      
+	       <div class="col-lg-3 pb-2 mix tableau">
+                <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>   
+          </div>
+	    
         </div>
       
      </section>
@@ -65,7 +70,7 @@ This library introdues all short-term mini-scale projects for my clients and fro
 
 	
   <footer>
-  <p><center>Made by Michellehlcn, Bootstraps, Mixitup. View more <a href="http://michellehlcn.wordpress.com">Wordpress Page</a></center></p>
+  <p><center>Made by <a href="http://michellehlcn.wordpress.com">Michellehlcn</a>, Bootstraps, Mixitup.</center></p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
