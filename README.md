@@ -60,7 +60,7 @@
  
   <footer>
   <p><center>Made by <a href="http://michellehlcn.wordpress.com">@Michellehlcn</a>
-	  <br>Built with Bootstraps and Mixitup.</br></center></p>
+	  <br>Built with Bootstraps and Mixitup.<br></center></p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
