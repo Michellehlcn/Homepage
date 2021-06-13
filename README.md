@@ -1,5 +1,6 @@
 
-<html lang="en" <head>
+<html lang="en"> 
+  <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
@@ -49,7 +50,7 @@
 
       </div>
 
-      </div>
+     
     </section>
 
 
@@ -106,4 +107,8 @@ img{
 }
 </style>
 </body>
+   <footer>
+  <p><center>Made by <a href="http://michellehlcn.wordpress.com">@Michellehlcn</a>
+	  <br>Built with Bootstraps and Mixitup.<br></center></p>
+</footer>
 </html>
