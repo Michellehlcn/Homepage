@@ -25,7 +25,9 @@
         </div>
         <div class="row box-list">
           <div class="col-lg-4 mix box-item tableau">
-            <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+                  <a href="https://michellehlcn.github.io/electoralmap/" target="_blank">
+		  <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></a>
+		</div>
 
           <div class="col-lg-4 mix box-item tableau">
             <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
