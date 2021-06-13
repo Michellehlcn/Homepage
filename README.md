@@ -31,8 +31,12 @@
           </div>
       <div class="row py-5">
              <div class="col-lg-3 pb-2 mix tableau">
-             <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
-          
+               <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
+             <div class="overlay">
+               <div class="text">Project</div>
+	      
+	      
+	      
             <div class="col-lg-3 pb-2 mix tableau">
                 <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt=""></div>
             
@@ -102,7 +106,34 @@ margin:0; padding:0;
   transition: 0.5s;
   
 }
-  
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
   
   </style>
 </html>
