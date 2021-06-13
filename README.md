@@ -119,7 +119,7 @@ margin:0; padding:0;
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.row:hover .overlay {
   opacity: 1;
 }
 
