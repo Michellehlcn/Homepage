@@ -69,6 +69,9 @@
 
 
 <style>
+header{
+  display: none;
+}
 .box-item{
   margin-bottom: 30px;
 }
