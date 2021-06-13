@@ -1,4 +1,4 @@
- <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg">
+ <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt="">
 
 This libraries collects all my work which were a variety of short-term projects for my clients and my personal research.
 
