@@ -115,15 +115,11 @@ img{
   background: #000;
 }
 	
-footer{
-text-decoration: none;
-font-weight: bold;
-color: #F15B31;
-}	
+	
 </style>
 </body>
    <footer>
   <p><center>This webpage is maintained by <a href="http://michellehlcn.wordpress.com">@Michellehlcn</a>
-	  <br>Built with Bootstraps and Mixitup.<br></center></p>
+	  <br>Built with Bootstraps and Mixitup.<br> style={text-decoration: none;font-weight: bold;color: #F15B31;}</center></p>
 </footer>
 </html>
