@@ -114,6 +114,12 @@ img{
 .box-menu ul li.mixitup-control-active{
   background: #000;
 }
+	
+footer{
+text-decoration: none;
+font-weight: bold;
+color: #F15B31;
+}	
 </style>
 </body>
    <footer>
