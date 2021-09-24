@@ -35,7 +35,8 @@
   <meta property="og:type" content="website" />
 
   <!-- Bootstrap core CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
  
 
   <!-- Custom fonts for this template -->
@@ -67,11 +68,12 @@
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">Menu<i class="fa fa-bars"></i>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#description">Intro</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="https://michellehlcn.wordpress.com" target="_blank">Blog</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -180,7 +182,7 @@
           </svg>
         </div>
       </div>
-    </div>
+   </div>
   </section>
 
 
@@ -193,35 +195,37 @@
       font-size: 14px;
       margin: 20px;
     }
+
+
 </style>
 
 
 
 	  
   <section class="bg-light" id="portfolio">
-      <div class="container">
+    <div class="container">
         <div class="row">
 
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
             <h3 class="section-subheading text-muted">A glimpse of the projects I've been working on</h3>
-             <div id="portfolio-button-container">
-              <button class="btn btn-secondary active" data-portfolio-section="*">Show All</button>
-               <button class="btn btn-secondary" data-portfolio-section=".mapbox">Mapbox</button>
-               <button class="btn btn-secondary" data-portfolio-section=".tableau">Tableau</button>
-                <button class="btn btn-secondary" data-portfolio-section=".datastudio">Data Studio</button>
-		            <button class="btn btn-secondary" data-portfolio-section=".datamining">Data Mining</button>
-                 <button class="btn btn-secondary" data-portfolio-section=".python">Python</button>
+             <div id="portfolio-button-container box-menu">
+              <button class="btn btn-secondary active mixitup-control-active" data-filter="*" data-portfolio-section="*">Show All</button>
+               <button class="btn btn-secondary" data-filter=".mapbox" data-portfolio-section=".mapbox">Mapbox</button>
+               <button class="btn btn-secondary" data-filter=".tableau" data-portfolio-section=".tableau">Tableau</button>
+                <button class="btn btn-secondary" data-filter=".datastudio" data-portfolio-section=".datastudio">Data Studio</button>
+		            <button class="btn btn-secondary" data-filter=".datamining" data-portfolio-section=".datamining">Data Mining</button>
+                 <button class="btn btn-secondary" data-filter=".python" data-portfolio-section=".python">Python</button>
               
             </div>
             <br>
           </div>
         </div>
         <br><br>
-        <div id="portfolio-items" class="row">
+        <div id="portfolio-items" class="row box-list">
 
 
-          <div class="col-lg-4  portfolio-item show column tableau">
+          <div class="col-lg-4 mix box-item portfolio-item show column tableau" >
           <a class="portfolio-link" data-toggle="modal" href="https://michellehlcn.github.io/electoralmap/" target="_blank">
 		       <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -230,11 +234,11 @@
                 <p class="explanation_portfolio">16 battleground states voted and momentum on Electoral College Map from 1976 – 2020<br></p>
               </div>
             </div>
-           <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" border="0" class="img-fluid" alt="">
+           <img src="https://Michellehlcn.github.io/Homepage/image2.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover; max-width: 100%;" border="0" class="img-fluid" alt="">
          </a>
          </div>
 
-           <div class="col-lg-4  portfolio-item show column datastudio python">
+           <div class="col-lg-4 mix box-item portfolio-item show column datastudio python">
             <a class="portfolio-link" data-toggle="modal" href="https://datastudio.google.com/u/0/reporting/d7f2c5d5-5819-4445-906f-cda8deca38c9/page/0PoLC" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -243,11 +247,11 @@
                 <p class="explanation_portfolio">This is my personal work with no affiliation to any organisation. Data was based on the website: Vietnam Health Ministry and Johns Hopkins University Centre for Systems Science and Engineering, Reuter. The tracking data might be conflicted and unreflected the existent condition of Covid-19 pandemic in Vietnam. This page is not under any obligation to update or correct any information provided. Statements are subjected to change without notice. No compensation is received. Methodology: Python, G-suits. <br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 
-         <div class="col-lg-4  portfolio-item show column mapbox">
+         <div class="col-lg-4 mix box-item portfolio-item show column mapbox">
            <a class="portfolio-link" data-toggle="modal" href="https://michellehlcn.github.io/thebeats/" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -256,11 +260,11 @@
                 <p class="explanation_portfolio">One of my very first project working as a freelancer. TheBeats.org is a NGO organization.<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/image0.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 
-          <div class="col-lg-4  portfolio-item show column mapbox">
+          <div class="col-lg-4 mix box-item portfolio-item show column mapbox">
              <a class="portfolio-link" data-toggle="modal" href="https://michellehlcn.github.io/covid19hotspot/" target="_blank"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -271,11 +275,11 @@
 The hotspots have been variously defined as areas of elevated incidence or prevalence, higher transmission efficiency or risk, or higher probability of disease emergence. To define whether that area is a hotspot is a complex matter, however, this map was based on the HCDC’s declaration which ordered the closure of suburbs immediately in order to control transmission and mitigate further spread. This page is not under any obligation to update or correct any information provided. Statements are subjected to change without notice.<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/Image4.jpeg.jpg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/Image4.jpeg.jpg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 
-          <div class="col-lg-4  portfolio-item show column datamining python">
+          <div class="col-lg-4 mix box-item portfolio-item show column datamining python">
 		  <a class="portfolio-link" data-toggle="modal" href="https://michellehlcn.github.io/VietnamCovid19Dataset/" target="_blank">  
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -289,11 +293,11 @@ This is a beta version which replaces the past tracking projects Covid hotspot a
 The upcoming threads will cover the financial support and responses from the Vietnam national bank in compared with other countries.<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/image3.ipeg.png" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/image3.ipeg.png" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover; max-width: 100%;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 
-          <div class="col-lg-4  portfolio-item show column mapbox">
+          <div class="col-lg-4 mix box-item portfolio-item show column mapbox">
             <a class="portfolio-link" data-toggle="modal" href="" target="_blank"> 
               <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -306,7 +310,7 @@ The upcoming threads will cover the financial support and responses from the Vie
           </a>
         </div>
 	
-	 <div class="col-lg-4  portfolio-item show column tableau">
+	 <div class="col-lg-4 mix box-item portfolio-item show column tableau">
     <a class="portfolio-link" data-toggle="modal" href="" target="_blank"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -315,11 +319,11 @@ The upcoming threads will cover the financial support and responses from the Vie
                 <p class="explanation_portfolio">16 battleground states voted and momentum on Electoral College Map from 1976 – 2020<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 		
-	 <div class="col-lg-4  portfolio-item show column tableau">
+	 <div class="col-lg-4 mix box-item portfolio-item show column tableau">
     <a class="portfolio-link" data-toggle="modal" href="" target="_blank"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -328,11 +332,11 @@ The upcoming threads will cover the financial support and responses from the Vie
                 <p class="explanation_portfolio">16 battleground states voted and momentum on Electoral College Map from 1976 – 2020<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
 		
-		 <div class="col-lg-4  portfolio-item show column tableau">
+		 <div class="col-lg-4 mix box-item portfolio-item show column tableau">
       <a class="portfolio-link" data-toggle="modal" href="" target="_blank"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -341,17 +345,12 @@ The upcoming threads will cover the financial support and responses from the Vie
                 <p class="explanation_portfolio">16 battleground states voted and momentum on Electoral College Map from 1976 – 2020<br></p>
               </div>
             </div>
-            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" border="0" class="img-fluid" alt="">
+            <img src="https://Michellehlcn.github.io/Homepage/comingsoon.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
           </a>
         </div>
-
-          
-        </div>
-
       </div>
-
-     
-    </section>
+    </div>
+  </section>
     
 
 
@@ -365,32 +364,40 @@ The upcoming threads will cover the financial support and responses from the Vie
         <div class="col-lg-8 text-center">
           <br><br><br>
           <h2 class="section-heading text-uppercase" style="color: black">Contact</h2>
-          <p>Feel free to contact me for any question. For open source projects, please open an issue or pull request on
-            <a href="https://github.com/holtzy/">Github</a>. If you want to follow my work, reach me on <a
-              href="https://twitter.com/R_Graph_Gallery">Twitter</a>. Otherwise, send me an email at <a
-              href="mailto:yan.holtz.data@gmail.com">yan.holtz.data@gmail.com</a>.</p>
+          <p>Feel free to reach me out for any question or open an issue or pull request on<a href="https://github.com/michellehlcn"> Github</a>. If you want to follow my work, reach me on <a
+              href="https://michellehlcn.wordpress.com">Wordpress</a>. Otherwise, send me an email at <a
+              href="mailto:michellehlcn.au@gmail.com">michellehlcn.au@gmail.com</a>.</p>
           <div style="text-align:center">
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="https://github.com/holtzy/data_to_viz">Github</a>
+              href="https://github.com/michellehlcn">Github</a>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="https://twitter.com/R_Graph_Gallery">Twitter</a>
+              href="https://twitter.com/Chisoulofmusic">Twitter</a>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="mailto:yan.holtz.data@gmail.com">Mail</a>
+              href="mailto:michellehlcn.au@gmail.com">Mail</a>
           </div>
 
         </div>
       </div>
     </div>
+  
   </section>
 
 
- <!-- ======================================================================= -->
+ <!-- ================================ JAVASCRIPT SECTION =============================== -->
+  <!-- Bootstrap core JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Plugin JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script>
+      $(document).ready(function() {
+            var mixer = mixitup('.box-list');
+});
+    </script>
 
+<!-- Custom scripts for this template -->
 <script src="js/appHome.js"></script>
   <script src="js/particles.js"></script>
    <script src="js/style.js"></script>
