@@ -37,6 +37,9 @@
   <!-- Bootstrap core CSS -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- W3 CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  
 
   <!-- Custom fonts for this template -->
@@ -172,7 +175,7 @@
 
               <circle cx="850" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
             <text text-anchor="middle" x="850" y="80" fill="black">2020</text>
-            <text font-size="13" text-anchor="middle" x="780" y="30" fill="black">Accountant Intern</text>
+            <text font-size="13" text-anchor="middle" x="780" y="30" fill="black">Intern</text>
             <text style="font-style: italic" font-size="13" text-anchor="middle" x="780" y="80" fill="#808080">BCS</text>
 
             <text font-size="13" text-anchor="middle" x="930" y="30" fill="black">Data Analyst </text>
@@ -205,7 +208,6 @@
   <section class="bg-light" id="portfolio">
     <div class="container">
         <div class="row">
-
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
             <h3 class="section-subheading text-muted">A glimpse of the projects I've been working on</h3>
@@ -239,16 +241,33 @@
          </div>
 
            <div class="col-lg-4 mix box-item portfolio-item show column datastudio python">
-            <a class="portfolio-link" data-toggle="modal" href="https://datastudio.google.com/u/0/reporting/d7f2c5d5-5819-4445-906f-cda8deca38c9/page/0PoLC" target="_blank">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+            <a class="portfolio-link">
+            <div class="portfolio-hover w3-container">
+              <div class="portfolio-hover-content ">
                 <p>Tracking COVID-19 Dataset</p>
                 <hr>
-                <p class="explanation_portfolio">This is my personal work with no affiliation to any organisation. Data was based on the website: Vietnam Health Ministry and Johns Hopkins University Centre for Systems Science and Engineering, Reuter. The tracking data might be conflicted and unreflected the existent condition of Covid-19 pandemic in Vietnam. This page is not under any obligation to update or correct any information provided. Statements are subjected to change without notice. No compensation is received. Methodology: Python, G-suits. <br></p>
+                <p class="explanation_portfolio"> Methodology: Python, DataStudio. <br></p>
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-grey">Details</button>
+                <div id="id01" class="w3-modal portfolio-modal">
+                  <div class="w3-modal-content modal-content">
+                      <div class="w3-container ">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <div class="modal-dialog">
+                            <div class="item-intro"><h2>Some text. Some text. Some text.</h2>
+                            </div>
+
+                            <p href="https://datastudio.google.com/u/0/reporting/d7f2c5d5-5819-4445-906f-cda8deca38c9/page/0PoLC" target="_blank">link</p>
+                            <p>Description</p>
+                            <hr>
+                            <p>This is my personal work with no affiliation to any organisation. Data was based on the website: Vietnam Health Ministry and Johns Hopkins University Centre for Systems Science and Engineering, Reuter. The tracking data might be conflicted and unreflected the existent condition of Covid-19 pandemic in Vietnam. This page is not under any obligation to update or correct any information provided. Statements are subjected to change without notice. No compensation is received.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <img src="https://Michellehlcn.github.io/Homepage/image1.jpeg" style="height: 100%;max-height: 300px;width: 100%;object-fit: cover;" border="0" class="img-fluid" alt="">
-          </a>
+        </a>
         </div>
 
          <div class="col-lg-4 mix box-item portfolio-item show column mapbox">
@@ -267,7 +286,7 @@
           <div class="col-lg-4 mix box-item portfolio-item show column mapbox">
              <a class="portfolio-link" data-toggle="modal" href="https://michellehlcn.github.io/covid19hotspot/" target="_blank"> 
             <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+              <div class="portfolio-hover-content ">
                 <p>COVID-19 Hotspot</p>
                 <hr>
                 <p class="explanation_portfolio">This is my personal work with no affiliation to any organisation. Data was based on the website: hcdc.vn. Since the number of Covid19 cases has seen risen within Hochiminh City and in Vietnam as a whole, the occurrence of a case of infection in the community with a more transmissible variant of SARS-CoV-2 (Delta variant) and opportunities for wide community exposure, I devoted myself to this page in order to help local folks in navigation of hotspots, bringing out any necessary restriction. It is an urgent task and absolutely needs everyone collaboration.
